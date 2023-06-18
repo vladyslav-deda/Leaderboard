@@ -63,8 +63,10 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/centerUserName"
+            style="@style/TextViewMedium500"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -72,10 +74,12 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/centerUserScore"
+            style="@style/TextViewBold700"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:textColor="@color/yellow"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -83,9 +87,11 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/centerUserUsername"
+            style="@style/TextViewLight300"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -96,8 +102,8 @@
         android:id="@+id/leftUserImage"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:padding="2dp"
         android:layout_marginBottom="8dp"
+        android:padding="2dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/leftUser"
         app:layout_constraintEnd_toEndOf="@+id/leftUser"
@@ -120,8 +126,10 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/leftUserName"
+            style="@style/TextViewMedium500"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -129,10 +137,12 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/leftUserScore"
+            style="@style/TextViewBold700"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:textColor="@color/blue"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -140,9 +150,11 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/leftUserUsername"
+            style="@style/TextViewLight300"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -177,8 +189,10 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/rightUserName"
+            style="@style/TextViewMedium500"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -186,10 +200,12 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/rightUserScore"
+            style="@style/TextViewBold700"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:textColor="@color/blue"
+            android:textColor="@color/green"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -197,9 +213,11 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/rightUserUsername"
+            style="@style/TextViewLight300"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"

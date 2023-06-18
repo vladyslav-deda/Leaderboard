@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ... -->
+    <style name="TextViewLight300" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/inter_light</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="TextViewRegular400" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="TextViewMedium500" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="TextViewSemiBold600" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/inter_semi_bold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="TextViewBold700" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">sans</item>
+    </style>
+</resources>
